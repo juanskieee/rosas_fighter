@@ -1,0 +1,238 @@
+{
+  "bodyTypeName": "teen",
+  "url": "https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator/#?body=Body_color_light&head=Human_male_light&sex=teen&clothes=TShirt_blue&armour=Legion_iron&legs=Pants_blue&expression=Angry_Alt_light&hair=Buzzcut_black&shoes=Basic_Shoes_black&belt=none_Belly_belt&weapon=Great_iron&quiver=Quiver_quiver&beard=none_Medium_Beard&mustache=none_Big_Mustache&nose=Straight_nose_light&headcover=none_Kerchief&shield=none_Heater_Shield_Base&shoes_toe=none_Plated_Toe&sash=none_Obi&bauldron=none_Bauldron&arms=none_Armour&ring=none_Stud_Ring&neck=none_Scarf&ammo=Ammo_arrow",
+  "spritesheets": "https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator/spritesheets/",
+  "version": 1,
+  "datetime": "5/13/2025, 4:53:07 PM",
+  "credits": [
+    {
+      "fileName": "body/bodies/teen/light.png",
+      "licenses": "OGA-BY 3.0,CC-BY-SA 3.0,GPL 3.0",
+      "authors": "bluecarrot16,Evert,TheraHedwig,Benjamin K. Smith (BenCreating),MuffinElZangano,Durrani,Pierre Vigier (pvigier),Eliza Wyatt (ElizaWy),Matthew Krohn (makrohn),Johannes Sjölund (wulax),Stephen Challener (Redshrike)",
+      "urls": "https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles,https://opengameart.org/content/lpc-medieval-fantasy-character-sprites,https://opengameart.org/content/lpc-ladies,https://opengameart.org/content/lpc-teen-unisex-base-clothes,https://opengameart.org/content/lpc-jump-expanded,https://opengameart.org/content/lpc-revised-character-basics,https://opengameart.org/content/lpc-be-seated,https://gitlab.com/vagabondgame/lpc-characters,https://opengameart.org/content/lpc-male-jumping-animation-by-durrani,https://opengameart.org/content/lpc-jump-expanded",
+      "notes": "see details at https://opengameart.org/content/lpc-character-bases; 'Thick' Male Revised Run/Climb by JaidynReiman (based on ElizaWy's LPC Revised)"
+    },
+    {
+      "fileName": "head/heads/human/male/light.png",
+      "licenses": "OGA-BY 3.0,CC-BY-SA 3.0,GPL 3.0",
+      "authors": "bluecarrot16,Benjamin K. Smith (BenCreating),Stephen Challener (Redshrike)",
+      "urls": "https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles,https://opengameart.org/content/lpc-character-bases",
+      "notes": "original head by Redshrike, tweaks by BenCreating, modular version by bluecarrot16"
+    },
+    {
+      "fileName": "head/faces/global/angry2/light.png",
+      "licenses": "CC-BY-SA 3.0,GPL 3.0",
+      "authors": "JaidynReiman,Thane Brimhall (pennomi),laetissima,Stephen Challener (Redshrike)",
+      "urls": "https://opengameart.org/content/lpc-base-character-expressions,https://opengameart.org/content/ulpc-expanded-expressions",
+      "notes": "Original Bases by Redshrike, Alt Angry Expression by Laetissima and Pennomi, mapped to all frames by JaidynReiman"
+    },
+    {
+      "fileName": "head/nose/straight/adult/light.png",
+      "licenses": "GPL 3.0,CC-BY-SA 3.0",
+      "authors": "Thane Brimhall (pennomi),laetissima,Matthew Krohn (makrohn)",
+      "urls": "https://opengameart.org/content/lpc-base-character-expressions",
+      "notes": ""
+    },
+    {
+      "fileName": "hair/buzzcut/adult/black.png",
+      "licenses": "OGA-BY 3.0",
+      "authors": "ElizaWy",
+      "urls": "https://opengameart.org/content/lpc-hair",
+      "notes": ""
+    },
+    {
+      "fileName": "torso/clothes/shortsleeve/tshirt/teen/blue.png",
+      "licenses": "OGA-BY 3.0",
+      "authors": "ElizaWy,JaidynReiman,Stephen Challener (Redshrike),Johannes Sjölund (wulax)",
+      "urls": "http://opengameart.org/content/lpc-revised-character-basics,https://github.com/ElizaWy/LPC/tree/main/Characters/Clothing,https://opengameart.org/content/lpc-expanded-sit-run-jump-more",
+      "notes": "original by ElizaWy; spellcast/thrust/shoot/hurt adapted from original by JaidynReiman"
+    },
+    {
+      "fileName": "torso/armour/legion/teen/iron.png",
+      "licenses": "OGA-BY 3.0,CC-BY-SA 3.0,GPL 2.0,GPL 3.0",
+      "authors": "JaidynReiman,bluecarrot16,Nila122",
+      "urls": "https://opengameart.org/content/lpc-roman-armor",
+      "notes": "adapted to v3 bases by bluecarrot16, jump/run/sit/combat and teen by Jaidynreiman"
+    },
+    {
+      "fileName": "quiver/quiver.png",
+      "licenses": "OGA-BY 3.0,CC-BY-SA 3.0,GPL 3.0",
+      "authors": "Johannes Sjölund (wulax)",
+      "urls": "https://opengameart.org/content/lpc-medieval-fantasy-character-sprites",
+      "notes": ""
+    },
+    {
+      "fileName": "legs/pants/thin/blue.png",
+      "licenses": "OGA-BY 3.0,GPL 3.0,CC-BY-SA 3.0",
+      "authors": "bluecarrot16,JaidynReiman,ElizaWy,Joe White,Matthew Krohn (makrohn),Johannes Sjölund (wulax),Stephen Challener (Redshrike)",
+      "urls": "https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles,https://opengameart.org/content/lpc-medieval-fantasy-character-sprites,http://opengameart.org/content/lpc-clothing-updates,https://opengameart.org/content/lpc-expanded-pants",
+      "notes": "original male pants by wulax, edited for female by Joe White, recolors and edits to v3 base by bluecarrot16, teen legs by ElizaWy derived from base, climb/jump/run/sit/emotes/revised combat by JaidynReiman based on ElizaWy's LPC Revised"
+    },
+    {
+      "fileName": "feet/shoes/basic/thin/black.png",
+      "licenses": "OGA-BY 3.0,CC-BY-SA 3.0,GPL 3.0",
+      "authors": "JaidynReiman,Joe White,Johannes Sjölund (wulax)",
+      "urls": "https://opengameart.org/content/lpc-medieval-fantasy-character-sprites,http://opengameart.org/content/lpc-clothing-updates,https://opengameart.org/content/lpc-expanded-socks-shoes",
+      "notes": "original by wulax, edited for female base by Joe White, edited for v3 base by bluecarrot16, Jump/Sit/Emote/Run/Revised Combat by JaidynReiman"
+    },
+    {
+      "fileName": "weapon/ranged/bow/arrow/arrow.png",
+      "licenses": "OGA-BY 3.0,CC-BY-SA 3.0,GPL 3.0",
+      "authors": "Johannes Sjölund (wulax)",
+      "urls": "https://opengameart.org/content/lpc-medieval-fantasy-character-sprites",
+      "notes": ""
+    },
+    {
+      "fileName": "weapon/ranged/bow/great/universal/background/iron.png",
+      "licenses": "CC-BY-SA 3.0",
+      "authors": "Daniel Eddeland (daneeklu),gr3yh47,Johannes Sjölund (wulax),Pierre Vigier (pvigier)",
+      "urls": "https://opengameart.org/content/lpc-weapons-two-bows-a-spear-and-a-trident,https://opengameart.org/content/lpc-walk-animations-for-bows",
+      "notes": "modified by daneeklu, from **normal** bow by wulax; walk animations by pvigier; split into layers and tweaked for v3 character bases by bluecarrot16"
+    },
+    {
+      "fileName": "weapon/ranged/bow/great/universal/foreground/iron.png",
+      "licenses": "CC-BY-SA 3.0",
+      "authors": "Daniel Eddeland (daneeklu),gr3yh47,Johannes Sjölund (wulax),Pierre Vigier (pvigier)",
+      "urls": "https://opengameart.org/content/lpc-weapons-two-bows-a-spear-and-a-trident,https://opengameart.org/content/lpc-walk-animations-for-bows",
+      "notes": "modified by daneeklu, from **normal** bow by wulax; walk animations by pvigier; split into layers and tweaked for v3 character bases by bluecarrot16"
+    },
+    {
+      "fileName": "weapon/ranged/bow/great/walk/background/iron.png",
+      "licenses": "CC-BY-SA 3.0",
+      "authors": "Daniel Eddeland (daneeklu),gr3yh47,Johannes Sjölund (wulax),Pierre Vigier (pvigier)",
+      "urls": "https://opengameart.org/content/lpc-weapons-two-bows-a-spear-and-a-trident,https://opengameart.org/content/lpc-walk-animations-for-bows",
+      "notes": "modified by daneeklu, from **normal** bow by wulax; walk animations by pvigier; split into layers and tweaked for v3 character bases by bluecarrot16"
+    },
+    {
+      "fileName": "weapon/ranged/bow/great/walk/foreground/iron.png",
+      "licenses": "CC-BY-SA 3.0",
+      "authors": "Daniel Eddeland (daneeklu),gr3yh47,Johannes Sjölund (wulax),Pierre Vigier (pvigier)",
+      "urls": "https://opengameart.org/content/lpc-weapons-two-bows-a-spear-and-a-trident,https://opengameart.org/content/lpc-walk-animations-for-bows",
+      "notes": "modified by daneeklu, from **normal** bow by wulax; walk animations by pvigier; split into layers and tweaked for v3 character bases by bluecarrot16"
+    }
+  ],
+  "layers": [
+    {
+      "fileName": "weapon/ranged/bow/great/universal/background/iron.png",
+      "zPos": -1,
+      "parentName": "weapon",
+      "name": "Great",
+      "variant": "iron",
+      "supportedAnimations": "shoot,hurt"
+    },
+    {
+      "fileName": "weapon/ranged/bow/great/walk/background/iron.png",
+      "zPos": -1,
+      "custom_animation": "walk_128",
+      "parentName": "weapon",
+      "name": "Great",
+      "variant": "iron",
+      "supportedAnimations": "shoot,hurt"
+    },
+    {
+      "fileName": "quiver/quiver.png",
+      "zPos": 8,
+      "parentName": "quiver",
+      "name": "Quiver",
+      "variant": "quiver",
+      "supportedAnimations": "spellcast,thrust,walk,slash,shoot,hurt,watering"
+    },
+    {
+      "fileName": "body/bodies/teen/light.png",
+      "zPos": 10,
+      "parentName": "body",
+      "name": "Body_color",
+      "variant": "light",
+      "supportedAnimations": "spellcast,thrust,walk,slash,shoot,hurt,watering,idle,jump,run,sit,emote,climb,combat,1h_slash,1h_backslash,1h_halfslash"
+    },
+    {
+      "fileName": "feet/shoes/basic/thin/black.png",
+      "zPos": 15,
+      "parentName": "shoes",
+      "name": "Basic_Shoes",
+      "variant": "black",
+      "supportedAnimations": "spellcast,thrust,walk,slash,shoot,hurt,watering,idle,jump,run,sit,emote,climb,combat,1h_slash,1h_backslash,1h_halfslash"
+    },
+    {
+      "fileName": "legs/pants/thin/blue.png",
+      "zPos": 20,
+      "parentName": "legs",
+      "name": "Pants",
+      "variant": "blue",
+      "supportedAnimations": "spellcast,thrust,walk,slash,shoot,hurt,watering,idle,jump,run,sit,emote,climb,combat,1h_slash,1h_backslash,1h_halfslash"
+    },
+    {
+      "fileName": "torso/clothes/shortsleeve/tshirt/teen/blue.png",
+      "zPos": 35,
+      "parentName": "clothes",
+      "name": "TShirt",
+      "variant": "blue",
+      "supportedAnimations": "spellcast,thrust,walk,slash,shoot,hurt,watering,idle,jump,run,sit,emote,climb,combat,1h_slash,1h_backslash,1h_halfslash"
+    },
+    {
+      "fileName": "torso/armour/legion/teen/iron.png",
+      "zPos": 60,
+      "parentName": "armour",
+      "name": "Legion",
+      "variant": "iron",
+      "supportedAnimations": "spellcast,thrust,walk,slash,shoot,hurt,watering,idle,jump,run,sit,emote,climb,combat,1h_slash,1h/backslash,1h_halfslash"
+    },
+    {
+      "fileName": "head/heads/human/male/light.png",
+      "zPos": 100,
+      "parentName": "head",
+      "name": "Human_male",
+      "variant": "light",
+      "supportedAnimations": "spellcast,thrust,walk,slash,shoot,hurt,watering,idle,jump,run,sit,emote,climb,combat,1h_slash,1h_backslash,1h_halfslash"
+    },
+    {
+      "fileName": "head/nose/straight/adult/light.png",
+      "zPos": 105,
+      "parentName": "nose",
+      "name": "Straight_nose",
+      "variant": "light",
+      "supportedAnimations": "spellcast,thrust,walk,slash,shoot,hurt,watering,idle,jump,run,sit,emote,climb,combat,1h_slash,1h_backslash,1h_halfslash"
+    },
+    {
+      "fileName": "head/faces/global/angry2/light.png",
+      "zPos": 106,
+      "parentName": "expression",
+      "name": "Angry_Alt",
+      "variant": "light",
+      "supportedAnimations": "spellcast,thrust,walk,slash,shoot,hurt,watering,idle,jump,run,sit,emote,climb,combat,1h_slash,1h_backslash,1h_halfslash"
+    },
+    {
+      "fileName": "hair/buzzcut/adult/black.png",
+      "zPos": 120,
+      "parentName": "hair",
+      "name": "Buzzcut",
+      "variant": "black",
+      "supportedAnimations": "spellcast,thrust,walk,slash,shoot,hurt,watering,idle,jump,run,sit,emote,climb,combat,1h_slash,1h_backslash,1h_halfslash"
+    },
+    {
+      "fileName": "weapon/ranged/bow/great/universal/foreground/iron.png",
+      "zPos": 140,
+      "parentName": "weapon",
+      "name": "Great",
+      "variant": "iron",
+      "supportedAnimations": "shoot,hurt"
+    },
+    {
+      "fileName": "weapon/ranged/bow/great/walk/foreground/iron.png",
+      "zPos": 141,
+      "custom_animation": "walk_128",
+      "parentName": "weapon",
+      "name": "Great",
+      "variant": "iron",
+      "supportedAnimations": "shoot,hurt"
+    },
+    {
+      "fileName": "weapon/ranged/bow/arrow/arrow.png",
+      "zPos": 150,
+      "parentName": "ammo",
+      "name": "Ammo",
+      "variant": "arrow",
+      "supportedAnimations": "shoot"
+    }
+  ]
+}

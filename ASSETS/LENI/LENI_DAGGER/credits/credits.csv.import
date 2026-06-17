@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cehthn65mce4w"
+
+[deps]
+
+files=["res://ASSETS/LENI/LENI_DAGGER/credits/credits.notes.translation", "res://ASSETS/LENI/LENI_DAGGER/credits/credits.authors.translation", "res://ASSETS/LENI/LENI_DAGGER/credits/credits.licenses.translation", "res://ASSETS/LENI/LENI_DAGGER/credits/credits.urls.translation"]
+
+source_file="res://ASSETS/LENI/LENI_DAGGER/credits/credits.csv"
+dest_files=["res://ASSETS/LENI/LENI_DAGGER/credits/credits.notes.translation", "res://ASSETS/LENI/LENI_DAGGER/credits/credits.authors.translation", "res://ASSETS/LENI/LENI_DAGGER/credits/credits.licenses.translation", "res://ASSETS/LENI/LENI_DAGGER/credits/credits.urls.translation"]
+
+[params]
+
+compress=true
+delimiter=0

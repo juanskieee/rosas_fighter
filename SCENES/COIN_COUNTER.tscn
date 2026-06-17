@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3 uid="uid://bbinegerixpwr"]
+
+[ext_resource type="Script" uid="uid://cnbygj52uc43m" path="res://SCRIPTS/coin_counter.gd" id="1_hdjdi"]
+[ext_resource type="Texture2D" uid="uid://ule7r2otqsj0" path="res://ASSETS/COINS/Remove background project.png" id="1_hubj0"]
+[ext_resource type="Texture2D" uid="uid://hlww8l17vadc" path="res://ASSETS/COINS/coin_texture.png" id="2_f766c"]
+[ext_resource type="FontFile" uid="uid://bxgwemgx3qdw" path="res://ASSETS/FONTS/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf" id="3_0qeyi"]
+
+[node name="COIN_COUNTER" type="CanvasLayer" groups=["COIN_COUNTER"]]
+script = ExtResource("1_hdjdi")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(1050.1, 50)
+scale = Vector2(0.148242, 0.0976562)
+texture = ExtResource("1_hubj0")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(985.75, 51.5)
+scale = Vector2(3.275, 3.25)
+texture = ExtResource("2_f766c")
+
+[node name="Label" type="Label" parent="."]
+texture_filter = 1
+offset_left = 1022.0
+offset_top = 40.0
+offset_right = 1102.0
+offset_bottom = 70.0
+theme_override_colors/font_color = Color(1, 0.846808, 0.954828, 1)
+theme_override_colors/font_shadow_color = Color(0.962067, 0.735027, 0.817884, 1)
+theme_override_fonts/font = ExtResource("3_0qeyi")
+theme_override_font_sizes/font_size = 29
+text = "9999"

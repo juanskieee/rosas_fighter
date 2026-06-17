@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dfbbeslt26rys"
+
+[deps]
+
+files=["res://ASSETS/LEVEL 1/LEVEL1_ENEMY_RANGED/credits/credits.notes.translation", "res://ASSETS/LEVEL 1/LEVEL1_ENEMY_RANGED/credits/credits.authors.translation", "res://ASSETS/LEVEL 1/LEVEL1_ENEMY_RANGED/credits/credits.licenses.translation", "res://ASSETS/LEVEL 1/LEVEL1_ENEMY_RANGED/credits/credits.urls.translation"]
+
+source_file="res://ASSETS/LEVEL 1/LEVEL1_ENEMY_RANGED/credits/credits.csv"
+dest_files=["res://ASSETS/LEVEL 1/LEVEL1_ENEMY_RANGED/credits/credits.notes.translation", "res://ASSETS/LEVEL 1/LEVEL1_ENEMY_RANGED/credits/credits.authors.translation", "res://ASSETS/LEVEL 1/LEVEL1_ENEMY_RANGED/credits/credits.licenses.translation", "res://ASSETS/LEVEL 1/LEVEL1_ENEMY_RANGED/credits/credits.urls.translation"]
+
+[params]
+
+compress=true
+delimiter=0

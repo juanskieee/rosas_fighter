@@ -1,0 +1,72 @@
+[gd_scene load_steps=7 format=3 uid="uid://cl04h5ppcsy7y"]
+
+[ext_resource type="Script" uid="uid://chq18o43w7lyb" path="res://SCRIPTS/dialogue_system.gd" id="1_pyxtf"]
+[ext_resource type="FontFile" uid="uid://bxgwemgx3qdw" path="res://ASSETS/FONTS/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf" id="2_oqn71"]
+[ext_resource type="Texture2D" uid="uid://bt3778leaat02" path="res://ASSETS/LEVEL 1/LEVEL1_BOSS_BATO/BATO.png" id="3_e1lup"]
+[ext_resource type="Texture2D" uid="uid://dq7ak51f5janh" path="res://ASSETS/DIALOUGE/LENI_PORTRAIT.png" id="4_vwwqk"]
+[ext_resource type="Texture2D" uid="uid://brnu8mxgt2cgh" path="res://ASSETS/DIALOUGE/BATO_PORTRAIT.png" id="5_y3482"]
+[ext_resource type="AudioStream" uid="uid://0ubeokksmioy" path="res://ASSETS/SFX/typing.wav" id="6_vwwqk"]
+
+[node name="DIALOGUE_SYSTEM" type="CanvasLayer"]
+script = ExtResource("1_pyxtf")
+
+[node name="DialogueBox" type="Panel" parent="."]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -224.5
+offset_top = -121.0
+offset_right = 314.5
+offset_bottom = -24.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="SpeakerName" type="Label" parent="DialogueBox"]
+layout_mode = 1
+offset_left = 9.0
+offset_top = 9.0
+offset_right = 125.0
+offset_bottom = 25.0
+theme_override_fonts/font = ExtResource("2_oqn71")
+
+[node name="DialogueText" type="RichTextLabel" parent="DialogueBox"]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 41.0
+offset_right = 528.0
+offset_bottom = 95.0
+theme_override_fonts/normal_font = ExtResource("2_oqn71")
+
+[node name="ContinueIndicator" type="TextureRect" parent="DialogueBox"]
+layout_mode = 0
+offset_left = 498.0
+offset_top = 56.0
+offset_right = 538.0
+offset_bottom = 96.0
+texture = ExtResource("3_e1lup")
+expand_mode = 1
+
+[node name="Leni" type="TextureRect" parent="DialogueBox"]
+layout_mode = 0
+offset_left = -113.0
+offset_top = -3.0
+offset_right = -13.0
+offset_bottom = 97.0
+texture = ExtResource("4_vwwqk")
+expand_mode = 1
+
+[node name="Bato" type="TextureRect" parent="DialogueBox"]
+layout_mode = 0
+offset_left = -113.0
+offset_top = -3.0
+offset_right = -13.0
+offset_bottom = 97.0
+texture = ExtResource("5_y3482")
+expand_mode = 1
+
+[node name="TypeSound" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(176, 448)
+stream = ExtResource("6_vwwqk")
+volume_db = -15.0

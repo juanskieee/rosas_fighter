@@ -1,0 +1,27 @@
+[gd_scene load_steps=7 format=3 uid="uid://frasccd36na5"]
+
+[ext_resource type="PackedScene" uid="uid://ww88bh71esyn" path="res://SCENES/LEVEL1_MAP.tscn" id="1_i2m2v"]
+[ext_resource type="Script" uid="uid://bmhj3j2cgmwmk" path="res://SCRIPTS/level_1.gd" id="1_p502i"]
+[ext_resource type="PackedScene" uid="uid://bnhofyy8nbiof" path="res://SCENES/LEVEL1_MAP_GROUND.tscn" id="2_picsk"]
+[ext_resource type="PackedScene" uid="uid://bqu4mxgfnlxd3" path="res://SCENES/LENI_SHORTSWORD.tscn" id="3_amqnh"]
+[ext_resource type="PackedScene" uid="uid://c7u177irdtb3j" path="res://SCENES/LEVEL1_ENEMY_SPAWNER.tscn" id="5_0ko20"]
+[ext_resource type="PackedScene" uid="uid://bbinegerixpwr" path="res://SCENES/COIN_COUNTER.tscn" id="7_qcbnl"]
+
+[node name="LEVEL1" type="Node"]
+script = ExtResource("1_p502i")
+
+[node name="LEVEL1_MAP" parent="." instance=ExtResource("1_i2m2v")]
+
+[node name="LEVEL1_MAP_GROUND" parent="." instance=ExtResource("2_picsk")]
+
+[node name="LENI_SHORTSWORD" parent="." instance=ExtResource("3_amqnh")]
+position = Vector2(171, 391)
+
+[node name="Camera2D" type="Camera2D" parent="LENI_SHORTSWORD"]
+position = Vector2(405, -71)
+position_smoothing_enabled = true
+drag_horizontal_enabled = true
+
+[node name="LEVEL1_ENEMY_SPAWNER" parent="." instance=ExtResource("5_0ko20")]
+
+[node name="COIN_COUNTER" parent="." instance=ExtResource("7_qcbnl")]

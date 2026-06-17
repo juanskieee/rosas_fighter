@@ -1,0 +1,216 @@
+body/bodies/teen/light.png
+	- Note: see details at https://opengameart.org/content/lpc-character-bases; 'Thick' Male Revised Run/Climb by JaidynReiman (based on ElizaWy's LPC Revised)
+	- Licenses:
+		- OGA-BY 3.0
+		- CC-BY-SA 3.0
+		- GPL 3.0
+	- Authors:
+		- bluecarrot16
+		- Evert
+		- TheraHedwig
+		- Benjamin K. Smith (BenCreating)
+		- MuffinElZangano
+		- Durrani
+		- Pierre Vigier (pvigier)
+		- Eliza Wyatt (ElizaWy)
+		- Matthew Krohn (makrohn)
+		- Johannes Sjölund (wulax)
+		- Stephen Challener (Redshrike)
+	- Links:
+		- https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles
+		- https://opengameart.org/content/lpc-medieval-fantasy-character-sprites
+		- https://opengameart.org/content/lpc-ladies
+		- https://opengameart.org/content/lpc-teen-unisex-base-clothes
+		- https://opengameart.org/content/lpc-jump-expanded
+		- https://opengameart.org/content/lpc-revised-character-basics
+		- https://opengameart.org/content/lpc-be-seated
+		- https://gitlab.com/vagabondgame/lpc-characters
+		- https://opengameart.org/content/lpc-male-jumping-animation-by-durrani
+		- https://opengameart.org/content/lpc-jump-expanded
+
+head/heads/human/male/light.png
+	- Note: original head by Redshrike, tweaks by BenCreating, modular version by bluecarrot16
+	- Licenses:
+		- OGA-BY 3.0
+		- CC-BY-SA 3.0
+		- GPL 3.0
+	- Authors:
+		- bluecarrot16
+		- Benjamin K. Smith (BenCreating)
+		- Stephen Challener (Redshrike)
+	- Links:
+		- https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles
+		- https://opengameart.org/content/lpc-character-bases
+
+head/faces/global/angry2/light.png
+	- Note: Original Bases by Redshrike, Alt Angry Expression by Laetissima and Pennomi, mapped to all frames by JaidynReiman
+	- Licenses:
+		- CC-BY-SA 3.0
+		- GPL 3.0
+	- Authors:
+		- JaidynReiman
+		- Thane Brimhall (pennomi)
+		- laetissima
+		- Stephen Challener (Redshrike)
+	- Links:
+		- https://opengameart.org/content/lpc-base-character-expressions
+		- https://opengameart.org/content/ulpc-expanded-expressions
+
+head/nose/straight/adult/light.png
+	- Note: 
+	- Licenses:
+		- GPL 3.0
+		- CC-BY-SA 3.0
+	- Authors:
+		- Thane Brimhall (pennomi)
+		- laetissima
+		- Matthew Krohn (makrohn)
+	- Links:
+		- https://opengameart.org/content/lpc-base-character-expressions
+
+hair/buzzcut/adult/black.png
+	- Note: 
+	- Licenses:
+		- OGA-BY 3.0
+	- Authors:
+		- ElizaWy
+	- Links:
+		- https://opengameart.org/content/lpc-hair
+
+torso/clothes/shortsleeve/tshirt/teen/blue.png
+	- Note: original by ElizaWy; spellcast/thrust/shoot/hurt adapted from original by JaidynReiman
+	- Licenses:
+		- OGA-BY 3.0
+	- Authors:
+		- ElizaWy
+		- JaidynReiman
+		- Stephen Challener (Redshrike)
+		- Johannes Sjölund (wulax)
+	- Links:
+		- http://opengameart.org/content/lpc-revised-character-basics
+		- https://github.com/ElizaWy/LPC/tree/main/Characters/Clothing
+		- https://opengameart.org/content/lpc-expanded-sit-run-jump-more
+
+torso/armour/legion/teen/iron.png
+	- Note: adapted to v3 bases by bluecarrot16, jump/run/sit/combat and teen by Jaidynreiman
+	- Licenses:
+		- OGA-BY 3.0
+		- CC-BY-SA 3.0
+		- GPL 2.0
+		- GPL 3.0
+	- Authors:
+		- JaidynReiman
+		- bluecarrot16
+		- Nila122
+	- Links:
+		- https://opengameart.org/content/lpc-roman-armor
+
+quiver/quiver.png
+	- Note: 
+	- Licenses:
+		- OGA-BY 3.0
+		- CC-BY-SA 3.0
+		- GPL 3.0
+	- Authors:
+		- Johannes Sjölund (wulax)
+	- Links:
+		- https://opengameart.org/content/lpc-medieval-fantasy-character-sprites
+
+legs/pants/thin/blue.png
+	- Note: original male pants by wulax, edited for female by Joe White, recolors and edits to v3 base by bluecarrot16, teen legs by ElizaWy derived from base, climb/jump/run/sit/emotes/revised combat by JaidynReiman based on ElizaWy's LPC Revised
+	- Licenses:
+		- OGA-BY 3.0
+		- GPL 3.0
+		- CC-BY-SA 3.0
+	- Authors:
+		- bluecarrot16
+		- JaidynReiman
+		- ElizaWy
+		- Joe White
+		- Matthew Krohn (makrohn)
+		- Johannes Sjölund (wulax)
+		- Stephen Challener (Redshrike)
+	- Links:
+		- https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles
+		- https://opengameart.org/content/lpc-medieval-fantasy-character-sprites
+		- http://opengameart.org/content/lpc-clothing-updates
+		- https://opengameart.org/content/lpc-expanded-pants
+
+feet/shoes/basic/thin/black.png
+	- Note: original by wulax, edited for female base by Joe White, edited for v3 base by bluecarrot16, Jump/Sit/Emote/Run/Revised Combat by JaidynReiman
+	- Licenses:
+		- OGA-BY 3.0
+		- CC-BY-SA 3.0
+		- GPL 3.0
+	- Authors:
+		- JaidynReiman
+		- Joe White
+		- Johannes Sjölund (wulax)
+	- Links:
+		- https://opengameart.org/content/lpc-medieval-fantasy-character-sprites
+		- http://opengameart.org/content/lpc-clothing-updates
+		- https://opengameart.org/content/lpc-expanded-socks-shoes
+
+weapon/ranged/bow/arrow/arrow.png
+	- Note: 
+	- Licenses:
+		- OGA-BY 3.0
+		- CC-BY-SA 3.0
+		- GPL 3.0
+	- Authors:
+		- Johannes Sjölund (wulax)
+	- Links:
+		- https://opengameart.org/content/lpc-medieval-fantasy-character-sprites
+
+weapon/ranged/bow/great/universal/background/iron.png
+	- Note: modified by daneeklu, from **normal** bow by wulax; walk animations by pvigier; split into layers and tweaked for v3 character bases by bluecarrot16
+	- Licenses:
+		- CC-BY-SA 3.0
+	- Authors:
+		- Daniel Eddeland (daneeklu)
+		- gr3yh47
+		- Johannes Sjölund (wulax)
+		- Pierre Vigier (pvigier)
+	- Links:
+		- https://opengameart.org/content/lpc-weapons-two-bows-a-spear-and-a-trident
+		- https://opengameart.org/content/lpc-walk-animations-for-bows
+
+weapon/ranged/bow/great/universal/foreground/iron.png
+	- Note: modified by daneeklu, from **normal** bow by wulax; walk animations by pvigier; split into layers and tweaked for v3 character bases by bluecarrot16
+	- Licenses:
+		- CC-BY-SA 3.0
+	- Authors:
+		- Daniel Eddeland (daneeklu)
+		- gr3yh47
+		- Johannes Sjölund (wulax)
+		- Pierre Vigier (pvigier)
+	- Links:
+		- https://opengameart.org/content/lpc-weapons-two-bows-a-spear-and-a-trident
+		- https://opengameart.org/content/lpc-walk-animations-for-bows
+
+weapon/ranged/bow/great/walk/background/iron.png
+	- Note: modified by daneeklu, from **normal** bow by wulax; walk animations by pvigier; split into layers and tweaked for v3 character bases by bluecarrot16
+	- Licenses:
+		- CC-BY-SA 3.0
+	- Authors:
+		- Daniel Eddeland (daneeklu)
+		- gr3yh47
+		- Johannes Sjölund (wulax)
+		- Pierre Vigier (pvigier)
+	- Links:
+		- https://opengameart.org/content/lpc-weapons-two-bows-a-spear-and-a-trident
+		- https://opengameart.org/content/lpc-walk-animations-for-bows
+
+weapon/ranged/bow/great/walk/foreground/iron.png
+	- Note: modified by daneeklu, from **normal** bow by wulax; walk animations by pvigier; split into layers and tweaked for v3 character bases by bluecarrot16
+	- Licenses:
+		- CC-BY-SA 3.0
+	- Authors:
+		- Daniel Eddeland (daneeklu)
+		- gr3yh47
+		- Johannes Sjölund (wulax)
+		- Pierre Vigier (pvigier)
+	- Links:
+		- https://opengameart.org/content/lpc-weapons-two-bows-a-spear-and-a-trident
+		- https://opengameart.org/content/lpc-walk-animations-for-bows
+

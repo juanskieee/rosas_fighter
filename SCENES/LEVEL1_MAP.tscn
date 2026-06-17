@@ -1,0 +1,51 @@
+[gd_scene load_steps=6 format=3 uid="uid://ww88bh71esyn"]
+
+[ext_resource type="Texture2D" uid="uid://bn4kk2rdqyku" path="res://ASSETS/LEVEL 1/MAP/Bright/Sky.png" id="1_2w1k5"]
+[ext_resource type="Texture2D" uid="uid://dcbenbkjnqhrt" path="res://ASSETS/LEVEL 1/MAP/Bright/buildings.png" id="2_jii4u"]
+[ext_resource type="Texture2D" uid="uid://ch3sw5lddgo1c" path="res://ASSETS/LEVEL 1/MAP/Bright/wall2.png" id="3_pwq7i"]
+[ext_resource type="Texture2D" uid="uid://c5u2mmpwt6k73" path="res://ASSETS/LEVEL 1/MAP/Bright/wall1.png" id="4_kdu6r"]
+[ext_resource type="Texture2D" uid="uid://r2eiy54v1mb4" path="res://ASSETS/LEVEL 1/MAP/Bright/boxes&container.png" id="5_hrb5s"]
+
+[node name="LEVEL1_MAP" type="ParallaxBackground"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_2w1k5")
+centered = false
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.6, 1)
+motion_mirroring = Vector2(1150, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer"]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("2_jii4u")
+centered = false
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.7, 1)
+motion_mirroring = Vector2(1150, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer2"]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("3_pwq7i")
+centered = false
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.8, 1)
+motion_mirroring = Vector2(1150, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer3"]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("4_kdu6r")
+centered = false
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.9, 1)
+motion_mirroring = Vector2(1150, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer4"]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("5_hrb5s")
+centered = false
